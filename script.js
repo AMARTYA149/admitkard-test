@@ -1,5 +1,5 @@
 $(document).ready(function(){
     $("form").submit(function(){
-      alert("Submitted");
+      var person = prompt("Please enter the OTP", "1234");
     });
   });
