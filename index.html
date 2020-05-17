@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>OTP</title>
 </head>
 <body>
@@ -17,9 +18,11 @@
             <p>Please Sign into your account</p>
         </div>    
 
-    <form id="contact-info" action="">
+    <form id="contact-info" action="/index2.html" method="GET">
         <p id="num-label">Enter Contact Number</p>
         <input type="number" name="number" id="number">
+        <input type="submit" value="Send OTP" id="submit-btn">
+        <!-- <button type="submit" id="submit-btn">Send OTP</button> -->
     </form>
     <p class="fdes">We will send you a one time SMS message</p>
         <p class="fdes">Charges may apply</p>
